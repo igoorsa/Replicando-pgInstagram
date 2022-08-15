@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+body {
+    width: 100%;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+}
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.cont_phone, .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    min-height: 25rem; 
+    margin: 15px;
+}
+.phone {
+    height: 50rem;
+}
+.selfie{
+    height: 9rem;
+    border-radius: 50%;
+}
+.continue {
+    font-size: 16px;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 4px ;
+    padding: 10px;
+    margin: 20px;
+}
+.remove {
+    font-size: 16px;
+    color: #0095f6;
+}
+.not {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #fefefe;
+    width: 100%; 
+    color: lightgray;
+    min-height: 4rem;
+}
+span {
+    color: #0095f6;
+}
+.apps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 16px;
+}
+.aple, .google {
+    margin-top: 15px;
+    width: 250px;
+}
+.not:nth-child(1){
+    min-height: 19rem;
+}
