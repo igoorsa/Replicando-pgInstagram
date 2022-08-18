@@ -82,36 +82,30 @@ span {
 }
 .aple, .google {
     margin-top: 15px;
-    width: 250px;
+    width: 150px;
 }
 .not:nth-child(1){
     min-height: 19rem;
 }
 
-@media (max-width: 1024px) {
-    .instagram-wrapper {
-        width: 90%;
-    }
-}
-
-@media (max-width: 650px) {
-    body {
-        background-color: #ffffff;
-    }
-
-    .instagram-wrapper {
-        width: 90%;
-    }
-
-    .instagram-phone {
+@media (max-width: 760px){
+    .cont_phone{
         display: none;
     }
-
-    .instagram-continue {
-        width: 100%;
-    }
+        .instagram-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     
-    .group {
-        border: 1px solid transparent;
+    }
+    .second{
+        width: 90%;
     }
 }
+
+@media (max-width: 1200px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
